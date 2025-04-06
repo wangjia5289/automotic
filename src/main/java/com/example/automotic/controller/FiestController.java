@@ -11,4 +11,10 @@ public class FiestController {
     public String Hello() {
         return "hello";
     }
+
+
+    @RequestMapping("sayhello")
+    public String SayHello() {
+        return "say hello~";
+    }
 }
